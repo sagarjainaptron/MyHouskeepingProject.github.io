@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#loading{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: #fff 
+        url('http://www.oceaninvestments.com/images/loading-red.gif')
+        no-repeat center;
+    z-index: 99999;
+}
+#indexhead{
+    font-size: 80px
+}
+.primary-background{
+    background: #ffff33 !important;
+    }
+    .floorhead{
+        font-size: 75px;
+            font-family: cursive
+    }
+
+    .deleteStaffContainer{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #031321;
+        color: black;
+        font-family: consolas;
+        width: 100%;
+        text-align: center;
+    }
+    #deleteStaffContainerbtn{
+        position: absolute;
+        display: inline-block;
+        padding: 15px 30px;
+        color: #2196F3;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 24px;
+        overflow: hidden;
+        transition: 0.2s;
+       
+    }
+    #deleteStaffContainerbtn:hover{
+        color: #255784;
+        background: #2196F3;
+        box-shadow: 0 0 10px #2196F3,0 0 40px #2196F3,0 0 80px #2196F3;
+    }
